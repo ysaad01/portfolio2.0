@@ -20,7 +20,7 @@ const ProjectCard = ({ project }) => {
       <Card style={{ width: "18rem" }}>
         <Card.Img
           variant="top"
-          src={`${process.env.PUBLIC_URL}/Images/${project.image}`}
+          src={`${process.env.PUBLIC_URL}/images/${project.image}`}
         />
         <Card.Body>
           <Card.Title>{project.title}</Card.Title>

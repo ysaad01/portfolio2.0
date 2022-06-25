@@ -16,7 +16,7 @@
   display: flex;
   width: 100%;
   justify-content: center;
-  padding-top: 25px;
+  padding-top: 35px;
 }
 
 .page-content {
@@ -33,7 +33,7 @@
 
 .App {
   background: linear-gradient(rgba(255, 255, 255, 0.4), var(--yellow)),
-    url(../public/assets/banner.jpeg);
+    url(../public/images/banner.jpeg);
   background-size: cover;
   background-position: center;
   min-height: 100vh;

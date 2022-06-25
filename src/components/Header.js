@@ -11,7 +11,7 @@ const Header = () => {
           <Link to="/">
             <img
               className="yas-logo"
-              src={`${process.env.PUBLIC_URL}/assets/yas-logo1.png`}
+              src={`${process.env.PUBLIC_URL}/images/logos/yas-logo1.png`}
               alt="yas logo"
             />
           </Link>

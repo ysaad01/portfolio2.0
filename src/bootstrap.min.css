@@ -4598,8 +4598,7 @@ fieldset:disabled .btn {
 .card-img-top {
   width: 100%;
 }
-.card-img,
-.card-img-top {
+.card-img {
   border-top-left-radius: 23px;
   border-top-right-radius: 23px;
 }

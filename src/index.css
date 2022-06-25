@@ -64,7 +64,8 @@
 
 .yas-img {
   width: 29%;
-  min-width: 350px;
+  min-width: 400px;
+  border-radius: 11px;
 }
 .footer-height {
   height: 60px;

@@ -10460,8 +10460,8 @@ fieldset:disabled .btn {
 }
 .navbar {
   border-width: 2px;
-  border-style: solid;
-  border-radius: 25px 25px 55px 5px/5px 55px 25px 25px;
+  /* border-style: solid;
+  border-radius: 25px 25px 55px 5px/5px 55px 25px 25px; */
 }
 .navbar.bg-light {
   border-color: #333;

@@ -5,23 +5,30 @@ import { Link } from "react-router-dom";
 
 const Header = () => {
   return (
-    <Navbar className="header-height" bg="bg-light" expand="lg" variant="light">
-      <Container>
-        <Navbar.Brand href="#home">
-          <Link to="/">
-            <img
-              className="yas-logo"
-              src={`${process.env.PUBLIC_URL}/images/logos/yas-logo1.png`}
-              alt="yas logo"
-            />
-          </Link>
-        </Navbar.Brand>
-        <Navbar.Toggle aria-controls="basic-navbar-nav" />
-        <Navbar.Collapse id="basic-navbar-nav">
-          <Navigation />
-        </Navbar.Collapse>
-      </Container>
-    </Navbar>
+    <div className="header-content">
+      <Navbar
+        className="header-height"
+        bg="bg-light"
+        expand="lg"
+        variant="light"
+      >
+        <Container>
+          <Navbar.Brand href="#home">
+            <Link to="/">
+              <img
+                className="yas-logo"
+                src={`${process.env.PUBLIC_URL}/images/logos/yas-logo1.png`}
+                alt="yas logo"
+              />
+            </Link>
+          </Navbar.Brand>
+          <Navbar.Toggle aria-controls="basic-navbar-nav" />
+          <Navbar.Collapse id="basic-navbar-nav">
+            <Navigation />
+          </Navbar.Collapse>
+        </Container>
+      </Navbar>
+    </div>
   );
 };
 

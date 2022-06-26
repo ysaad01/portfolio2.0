@@ -15,7 +15,7 @@ function App() {
       <Header />
       <div className="page-container">
         <Routes>
-          <Route path="/" element={<Landing />} />
+          <Route path="/portfolio2.0" element={<Landing />} />
           <Route path="about" element={<About />} />
           <Route path="projects" element={<Projects />} />
           <Route path="resume" element={<Resume />} />

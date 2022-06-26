@@ -4,7 +4,7 @@ import { Card, Button, Col } from "react-bootstrap";
 const ProjectCard = ({ project }) => {
   console.log(project);
   return (
-    <Col xs={12} md={6} lg={4} xl={3} className="d-flex justify-content-center">
+    <Col xs={12} md={3} lg={4} xl={3} className="d-flex justify-content-center">
       <Card style={{ width: "23rem" }}>
         <Card.Img
           variant="top"

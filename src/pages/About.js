@@ -4,7 +4,7 @@ import { Row } from "react-bootstrap";
 const About = () => {
   // any logic will be declared before the return
   return (
-    <div>
+    <div className="page-content">
       <h1 className="text-center"> About Me</h1>
       <Row className="about-me">
         <div className="card border-primary mb-3 bg-light">

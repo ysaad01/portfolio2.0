@@ -106,11 +106,26 @@ h1 {
 }
 
 /* Contact styling */
+.contact-info-row {
+  padding-bottom: 5px;
+}
+
+.contact-form-content {
+  width: 45vw;
+  font-size: larger;
+  min-height: calc(100vh - 140px);
+}
+
+.contact-form-label {
+  font-size: 24.5px;
+  font-weight: 500;
+}
 .contact-icon:hover {
   transform: scale(1.1);
 }
-.contact-info-row {
-  padding-bottom: 5px;
+
+.submit-btn:hover {
+  transform: scale(1.1);
 }
 
 .footer-height {

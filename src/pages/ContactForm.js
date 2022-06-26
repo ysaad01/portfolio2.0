@@ -17,7 +17,7 @@ function ContactForm() {
       const isValid = validateEmail(e.target.value);
 
       if (!isValid) {
-        setErrorMessage("please enter a valid email");
+        setErrorMessage("Please Enter a Valid Email");
       } else {
         setErrorMessage("");
       }
@@ -39,14 +39,14 @@ function ContactForm() {
   }
 
   return (
-    <section className="page-content">
-      <h2 data-testid="h1tag" className="top-title">
-        Contact Form
-      </h2>
+    <section className="contact-form-content">
+      <h2 className="top-title text-center">Contact Form</h2>
       <hr></hr>
-      <form class="justify-content-center" id="contact-form">
-        <div class="mt-5">
-          <label htmlFor="name">Name:</label>
+      <form class="justify-content-center">
+        <div>
+          <label className="contact-form-label" htmlFor="name">
+            Name:
+          </label>
           <input
             class="form-control"
             type="text"
@@ -56,7 +56,9 @@ function ContactForm() {
           />
         </div>
         <div class="mt-5">
-          <label htmlFor="email">Email Address:</label>
+          <label className="contact-form-label" htmlFor="email">
+            Email Address:
+          </label>
           <input
             class="form-control"
             type="email"
@@ -66,7 +68,9 @@ function ContactForm() {
           />
         </div>
         <div class="mt-5">
-          <label htmlFor="message">Message:</label>
+          <label className="contact-form-label" htmlFor="message">
+            Message:
+          </label>
           <textarea
             class="form-control"
             name="message"
@@ -81,10 +85,10 @@ function ContactForm() {
           </div>
         )}
 
-        <div class="mt-5 mb-5">
+        <div class="mt-5 mb-5 d-flex justify-content-center">
           <button
             data-testid="button"
-            class="btn btn-outline-dark "
+            class="submit-btn btn-dark btn-lg"
             type="submit"
             onSubmit={handleSubmit}
           >

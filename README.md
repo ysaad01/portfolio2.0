@@ -1,3 +1,30 @@
+# [Portfolio 2.0](https://github.com/ysaad01/portfolio2.0)
+
+## Table of Contents
+
+- [Description](#description)
+- [Installation](#installation)
+- [Usage](#usage)
+
+- [Questions](#questions)
+
+## [Description](#table-of-contents)
+
+This project converts my portfolio from HTML and CSS to a portfolio built with the React framework
+
+## [Installation](#table-of-contents)
+
+npm install
+
+## [Usage](#table-of-contents)
+
+npm start
+
+## [Questions](#table-of-contents)
+
+- If you have any questions please [**Email**](mailto:ysaad2325@gmail.com) me Ü
+- Check out more of my work at [**GitHub**](https://github.com/ysaad01) Ü
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

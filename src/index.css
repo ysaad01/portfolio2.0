@@ -135,3 +135,10 @@ h1 {
   height: 60px;
   text-align: center;
 }
+
+/* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
+@media screen and (max-width: 575px) {
+  .yas-img {
+    min-width: 100%;
+  }
+}

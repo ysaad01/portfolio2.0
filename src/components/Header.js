@@ -2,6 +2,7 @@ import React from "react";
 import Navigation from "./Navigation";
 import { Navbar, Container } from "react-bootstrap";
 import { Link } from "react-router-dom";
+import Landing from "../pages/Landing";
 
 const Header = () => {
   return (

@@ -8,7 +8,7 @@ const Projects = () => {
     <div className="page-content">
       <h1>Projects</h1>
 
-      <Row className="project-wrapper">
+      <Row className="project-wrapper text-center">
         {projects.map((project) => (
           <ProjectCard project={project} />
         ))}

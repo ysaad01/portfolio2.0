@@ -5,7 +5,7 @@ const ProjectCard = ({ project }) => {
   console.log(project);
   return (
     <Col xs={12} md={6} lg={4} xl={3} className="d-flex justify-content-center">
-      <Card style={{ width: "22rem" }}>
+      <Card style={{ width: "23rem" }}>
         <Card.Img
           variant="top"
           src={`${process.env.PUBLIC_URL}/images/${project.image}`}
@@ -14,6 +14,7 @@ const ProjectCard = ({ project }) => {
           <Card.Title>{project.title}</Card.Title>
           <Card.Text>{project.description}</Card.Text>
           <Button
+            className="btn-lg"
             variant="link"
             href={project.link}
             target="_blank"
@@ -22,6 +23,7 @@ const ProjectCard = ({ project }) => {
             Live Site
           </Button>
           <Button
+            className="btn-lg"
             variant="link"
             href={project.github}
             target="_blank"

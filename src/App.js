@@ -1,6 +1,6 @@
 import Landing from "./pages/Landing";
 import About from "./pages/About";
-import { Routes, Route } from "react-router-dom";
+import { Routes, Route, Redirect } from "react-router-dom";
 import { Row } from "react-bootstrap";
 import Projects from "./pages/Projects";
 import Resume from "./pages/Resume";
@@ -15,7 +15,7 @@ function App() {
       <Header />
       <div className="page-container">
         <Routes>
-          <Route path="/portfolio2.0" element={<Landing />} />
+          <Route exact path="/" render={() => <Redirect to="/" />} />
           <Route path="about" element={<About />} />
           <Route path="projects" element={<Projects />} />
           <Route path="resume" element={<Resume />} />

@@ -8,7 +8,7 @@ const Resume = () => {
       <Row>
         <Nav className="resume-pdf">
           <Button
-            className="btn btn-danger"
+            className="btn btn-danger btn-lg"
             variant="link"
             href={`${process.env.PUBLIC_URL}/yas-resume.pdf`}
             target="_blank"
@@ -21,7 +21,7 @@ const Resume = () => {
 
       <Row className="resume-body">
         <Col>
-          <div class="card text-white bg-primary mb-3">
+          <div className="card border-primary mb-3 bg-light">
             <div class="card-body">
               <h3 class="card-title">Education</h3>
               <ul className="card-text">
@@ -45,16 +45,24 @@ const Resume = () => {
         </Col>
 
         <Col>
-          <h3>Technology Skills</h3>
-          <br />
-          <h4>Experience With:</h4>
-          <ul>
-            <li>HTML</li>
-            <li>CSS</li>
-            <li>Github</li>
-            <li>ETC</li>
-            <li>ETC</li>
-          </ul>
+          <div className="card border-primary mb-3 bg-light">
+            <div class="card-body">
+              <h3 class="card-title">Technology Skills</h3>
+              <ul className="card-text">
+                <li>HTML, CSS, and Javascript</li>
+                <li>jQuery</li>
+                <li>Web APIs</li>
+                <li>React</li>
+                <li>Node.js</li>
+                <li>Express.js</li>
+                <li>Model-View-Controller Paradigms</li>
+                <li>SQL</li>
+                <li>MongoDB and Mongoose</li>
+                <li>Progressive Web Application Paradigms</li>
+              </ul>
+              <br />
+            </div>
+          </div>
         </Col>
       </Row>
     </div>

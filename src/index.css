@@ -53,6 +53,10 @@ h1 {
   height: 8vw;
 }
 
+.yas-logo:hover {
+  transform: scale(1.1);
+}
+
 .nav-row {
   font-size: 2.25vw;
 }
@@ -97,7 +101,14 @@ h1 {
   font-weight: bolder;
 }
 
+.btn-lg:hover {
+  transform: scale(1.1);
+}
+
 /* Contact styling */
+.contact-icon:hover {
+  transform: scale(1.1);
+}
 .contact-info-row {
   padding-bottom: 5px;
 }

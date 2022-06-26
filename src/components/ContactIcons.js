@@ -11,6 +11,7 @@ const ContactIcons = () => {
       <div className="contact-info text-center">
         <a href="mailto:ysaad2325@gmail.com">
           <img
+            className="contact-icon"
             src={`${process.env.PUBLIC_URL}/images/icons/email-icon.png`}
             alt="email contact icon"
           ></img>
@@ -18,6 +19,7 @@ const ContactIcons = () => {
 
         <a href="https://github.com/ysaad01">
           <img
+            className="contact-icon"
             src={`${process.env.PUBLIC_URL}/images/icons/github-icon.png`}
             alt="github contact icon"
           ></img>

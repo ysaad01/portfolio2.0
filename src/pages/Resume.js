@@ -8,11 +8,12 @@ const Resume = () => {
       <Row>
         <Nav className="resume-pdf">
           <Button
-            className="btn btn-danger btn-lg"
+            className="btn-lg"
             variant="link"
             href={`${process.env.PUBLIC_URL}/yas-resume.pdf`}
             target="_blank"
             rel="noreferrer"
+            style={{ backgroundColor: "#996515" }}
           >
             Full Resume
           </Button>

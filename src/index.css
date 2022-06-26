@@ -67,6 +67,11 @@
   min-width: 400px;
   border-radius: 11px;
 }
+
+.contact-info-row {
+  padding-bottom: 5px;
+}
+
 .footer-height {
   height: 60px;
   text-align: center;

@@ -40,7 +40,7 @@ function ContactForm() {
 
   return (
     <section className="contact-form-content">
-      <h2 className="top-title text-center">Contact Form</h2>
+      <h1 className="top-title text-center">Contact Form</h1>
       <hr></hr>
       <form class="justify-content-center">
         <div>

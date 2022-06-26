@@ -1,8 +1,7 @@
 import React from "react";
 import { Row } from "react-bootstrap";
 
-const Contact = ({ contact }) => {
-  console.log(contact);
+const ContactIcons = () => {
   return (
     <Row>
       <div>
@@ -23,15 +22,9 @@ const Contact = ({ contact }) => {
             alt="github contact icon"
           ></img>
         </a>
-        <a href="tel:(440) 681-0984">
-          <img
-            src={`${process.env.PUBLIC_URL}/images/icons/tel-icon.png`}
-            alt="telephone contact icon"
-          ></img>
-        </a>
       </div>
     </Row>
   );
 };
 
-export default Contact;
+export default ContactIcons;

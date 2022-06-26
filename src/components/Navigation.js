@@ -15,7 +15,7 @@ const Navigation = () => {
         Resume
       </Nav.Link>
       <Nav.Link as={NavLink} to="/contact">
-        Contact
+        Contact Form
       </Nav.Link>
     </Nav>
   );

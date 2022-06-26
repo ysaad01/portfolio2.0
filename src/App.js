@@ -4,9 +4,10 @@ import { Routes, Route } from "react-router-dom";
 import { Row } from "react-bootstrap";
 import Projects from "./pages/Projects";
 import Resume from "./pages/Resume";
+import ContactForm from "./pages/ContactForm";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
-import Contact from "./components/Contact";
+import ContactIcons from "./components/ContactIcons";
 
 function App() {
   return (
@@ -18,10 +19,11 @@ function App() {
           <Route path="about" element={<About />} />
           <Route path="projects" element={<Projects />} />
           <Route path="resume" element={<Resume />} />
+          <Route path="contact" element={<ContactForm />} />
         </Routes>
       </div>
       <Row className="contact-info-row">
-        <Contact />
+        <ContactIcons />
       </Row>
       <Footer />
     </div>

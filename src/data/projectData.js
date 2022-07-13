@@ -19,12 +19,12 @@ export const projects = [
   },
   {
     id: 3,
-    title: "Tech Blog",
+    title: "NoSQL Social Network API",
     image: "img3.jpeg",
     description:
-      "a basic CMS-style blog site that was created using the Model, View, Controller paradigm. This site is currently hosted on Heroku and can also be run locally using the files located in the GitHub repository Github.",
-    link: "https://polar-eyrie-31733.herokuapp.com/",
-    github: "https://github.com/ysaad01/tech-blog",
+      "This is an API for a social network where users can share their thoughts, react to friends' thoughts, and create a friends list.",
+    link: "https://drive.google.com/file/d/16_wXsT6Rs1UTHry6jFoqCLovH3yF45BG/view",
+    github: "https://github.com/ysaad01/nosql-social-network-api",
   },
   {
     id: 4,

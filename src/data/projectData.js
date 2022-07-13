@@ -1,12 +1,12 @@
 export const projects = [
   {
     id: 1,
-    title: "NoSQL Social Network API",
+    title: "The Delicious Connection",
     image: "img1.jpg",
     description:
-      "This is an API for a social network where users can share their thoughts, react to friends' thoughts, and create a friends list.",
-    link: "https://drive.google.com/file/d/16_wXsT6Rs1UTHry6jFoqCLovH3yF45BG/view",
-    github: "https://github.com/ysaad01/nosql-social-network-api",
+      "The Delicious Connection is a random restaurant generator utilizing Yelp's API to allow us to suggest a restaurant on the most indecisive evenings.",
+    link: "https://delcon.herokuapp.com/",
+    github: "https://github.com/ysaad01/the-delicious-connection",
   },
   {
     id: 2,

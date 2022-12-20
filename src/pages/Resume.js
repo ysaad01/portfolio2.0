@@ -10,7 +10,7 @@ const Resume = () => {
           <Button
             className="btn-lg"
             variant="link"
-            href={`${process.env.PUBLIC_URL}/yas-resume.pdf`}
+            href={`${process.env.PUBLIC_URL}/yas-updated.pdf`}
             target="_blank"
             rel="noreferrer"
             style={{ backgroundColor: "#996515" }}
